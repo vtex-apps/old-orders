@@ -1,0 +1,106 @@
+{
+  "vendor": "vtex",
+  "name": "old-orders",
+  "version": "0.1.11",
+  "title": "Old Orders",
+  "mustUpdateAt": "2019-08-01",
+  "categories": [],
+  "defaultLocale": "ro-RO",
+  "registries": [
+    "smartcheckout"
+  ],
+  "scripts": {
+    "postreleasy": "vtex publish --public"
+  },
+  "settingsSchema": {
+    "title": "Old Orders",
+    "type": "object",
+    "properties": {
+      "fields": {
+        "title": "Schema fields",
+        "type": "array",
+        "description": "Array with the name of all fields",
+        "items": {
+          "type": "string"
+        }
+      },
+      "urlFields": {
+        "title": "Schema url fields",
+        "type": "array",
+        "description": "Array with the name of all fields",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "title": "Field name",
+              "type": "string",
+              "description": "Data entity field name"
+            },
+            "title": {
+              "title": "Title of the field",
+              "type": "string",
+              "description": "Title to be shown in table's header"
+            }
+          }
+        }
+      },
+      "emailField": {
+        "title": "Email Field",
+        "type": "string",
+        "description": "Email Field Name"
+      },
+      "dataentityName": {
+        "title": "Data entity Name",
+        "type": "string",
+        "description": "Data entity Name"
+      },
+      "schemaName": {
+        "title": "Data entity schema Name",
+        "type": "string",
+        "description": "Data entity schema Name"
+      }
+    }
+  },
+  "builders": {
+    "store": "0.x",
+    "react": "3.x",
+    "node": "6.x",
+    "messages": "1.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.my-orders-app": "3.x",
+    "vtex.my-account": "1.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.styleguide": "9.x",
+    "vtex.my-account-commons": "1.x",
+    "vtex.admin-graphql": "2.x"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "vetrob2c.old-orders",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vtex/styleguide": "^9.128.1",
+    "apollo-client": "^2.4.7",
+    "axios": "^0.18.0",
+    "md5": "^2.2.1",
+    "moment": "2.28.0",
+    "prop-types": "^15.5.10",
+    "query-string": "^6.13.1,",
+    "react-apollo": "^2.1.11",
+    "react-intl": "^2.4.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/query-string": "^6.3.0",
+    "@types/react-intl": "^2.3.18",
+    "@types/react-router-dom": "^5.1.5",
+    "apollo-client-preset": "^1.0.8",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-react-intl": "^1.4.8",
+    "enzyme-to-json": "^3.3.1",
+    "graphql": "^0.13.0",
+    "graphql-tag": "^2.7.3",
+    "jest": "^22.2.1",
+    "jest-transform-graphql": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0",
+    "react-test-renderer": "^16.2.0",
+    "universal-cookie": "^2.2.0",
+    "vtex.admin-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.admin-graphql@2.36.4/public/@types/vtex.admin-graphql",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.my-account": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.24.0/public/@types/vtex.my-account",
+    "vtex.my-account-commons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account-commons@1.6.0/public/@types/vtex.my-account-commons",
+    "vtex.my-orders-app": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-orders-app@3.15.1/public/@types/vtex.my-orders-app",
+    "vtex.old-orders": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.old-orders@0.1.9/public/_types/react",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime",
+    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.149.1/public/@types/vtex.store-graphql",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.2/public/@types/vtex.styleguide"
+  },
+  "jest": {
+    "verbose": true,
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
+    "transform": {
+      "\\.(gql|graphql)$": "jest-transform-graphql",
+      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}

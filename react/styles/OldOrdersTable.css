@@ -1,0 +1,7 @@
+.tableContainer :global(.vtex-account__page) {
+  width: 100%;
+}
+.tableContainer :global(.vtex-button__label) {
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}

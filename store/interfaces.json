@@ -1,0 +1,8 @@
+{
+  "my-account-page.old-orders": {
+    "component": "OldOrders"
+  },
+  "my-account-page.old-orders-button": {
+    "component": "OldOrdersButton"
+  }
+}

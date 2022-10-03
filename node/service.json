@@ -1,0 +1,18 @@
+{
+  "stack": "nodejs",
+  "memory": 1024,
+  "runtimeArgs": [
+    "--optimize_for_size",
+    "--max_old_space_size=48"
+  ],
+  "routes": {
+    "oldOrders": {
+      "path": "/_v/getOldOrders",
+      "public": true
+    },
+    "cron": {
+      "path": "/_v/old-orders/cron",
+      "public": true
+    }
+  }
+}
