@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "old-orders",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "title": "Old Orders",
   "mustUpdateAt": "2019-08-01",
   "categories": [],

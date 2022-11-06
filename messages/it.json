@@ -1,0 +1,21 @@
+{
+  "store/oldorders.emptyStateLabel": "nessun dato",
+  "store/oldorders.showRows": "mostra righe",
+  "store/oldorders.yesLabel": "Si",
+  "store/oldorders.noLabel": "No",
+  "store/oldorders.orderButton": "Ordini precedenti",
+  "store/oldorders.of": "di",
+  "orders.title": "Ordini",
+  "oldorders.title": "Ordini precedenti",
+  "Companie": "Azienda",
+  "Data comenzii": "Data di specizione",
+  "Oras livrare": "Città",
+  "Destinatar": "Destinatario",
+  "Nume": "Cognome",
+  "Prenume": "Nome",
+  "Nr. factura": "Num. Fattura",
+  "ID Comanda": "ID Consegna",
+  "Comentarii": "Commenti",
+  "Valoare": "Prezzo",
+  "Moneda": "Valuta"
+}
