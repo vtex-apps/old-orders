@@ -1,0 +1,21 @@
+{
+  "store/oldorders.emptyStateLabel": "데이터 없음",
+  "store/oldorders.showRows": "행 표시",
+  "store/oldorders.yesLabel": "예",
+  "store/oldorders.noLabel": "아니요",
+  "store/oldorders.orderButton": "오래된 주문",
+  "store/oldorders.of": "/",
+  "orders.title": "주문",
+  "oldorders.title": "오래된 주문",
+  "Companie": "회사",
+  "Data comenzii": "배송 날짜",
+  "Oras livrare": "배송 도시",
+  "Destinatar": "받는 사람",
+  "Nume": "성",
+  "Prenume": "이름",
+  "Nr. factura": "송장 번호",
+  "ID Comanda": "배송 ID",
+  "Comentarii": "설명",
+  "Valoare": "가격",
+  "Moneda": "통화"
+}
