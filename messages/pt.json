@@ -1,0 +1,21 @@
+{
+  "store/oldorders.emptyStateLabel": "Sem dados",
+  "store/oldorders.showRows": "Mostrar linhas",
+  "store/oldorders.yesLabel": "Sim",
+  "store/oldorders.noLabel": "Não",
+  "store/oldorders.orderButton": "Pedidos antigos",
+  "store/oldorders.of": "de",
+  "orders.title": "Pedidos",
+  "oldorders.title": "Pedidos antigos",
+  "Companie": "Empresa",
+  "Data comenzii": "Data de entrega",
+  "Oras livrare": "Cidade de entrega",
+  "Destinatar": "Destinatário",
+  "Nume": "Sobrenome",
+  "Prenume": "Nome",
+  "Nr. factura": "Número da fatura",
+  "ID Comanda": "ID de entrega",
+  "Comentarii": "Comentários",
+  "Valoare": "Preço",
+  "Moneda": "Moeda"
+}

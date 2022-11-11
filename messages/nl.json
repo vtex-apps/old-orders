@@ -1,0 +1,21 @@
+{
+  "store/oldorders.emptyStateLabel": "Geen gegevens",
+  "store/oldorders.showRows": "Toon rijen",
+  "store/oldorders.yesLabel": "Ja",
+  "store/oldorders.noLabel": "Nee",
+  "store/oldorders.orderButton": "Oude bestellingen",
+  "store/oldorders.of": "van",
+  "orders.title": "Bestellingen",
+  "oldorders.title": "Oude bestellingen",
+  "Companie": "Bedrijf",
+  "Data comenzii": "Leveringsdatum",
+  "Oras livrare": "Stad van levering",
+  "Destinatar": "Ontvanger",
+  "Nume": "Achternaam",
+  "Prenume": "Naam",
+  "Nr. factura": "Factuur nr.",
+  "ID Comanda": "Levering-ID",
+  "Comentarii": "Opmerkingen",
+  "Valoare": "Prijs",
+  "Moneda": "Valuta"
+}
